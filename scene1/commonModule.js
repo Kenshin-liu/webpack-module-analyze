@@ -1,9 +1,5 @@
-var counter = 3
+exports.counter = 3
 
-function incCounter() {
+exports.incCounter = function(vm) {
   counter++
-}
-module.exports = {
-  counter: counter,
-  incCounter: incCounter,
 }
